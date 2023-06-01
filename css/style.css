@@ -7,6 +7,9 @@ body {
 	background-color: #c7a17a;
 	color: white;
 }
+.nav-link{
+	color:white;
+}
 
 .logo-taza {
 	color: rgb(255, 246, 246);
@@ -445,6 +448,50 @@ body {
 
 .btn-read-more:hover {
 	background-color: #c7a07a9d;
+}
+
+
+/***********************************FORMULARIO***********************************/
+
+form {
+	background-color: #c7a17a;
+	padding: 5px;
+	border-radius: 5px;
+	width: 65%;
+	margin: auto;
+	/*   height: 10%;
+ */
+	margin-bottom: 20px;
+}
+
+form {
+	margin-top: 20px;
+}
+
+#contForm {
+	display: none;
+}
+
+.BtnEnviar {
+	border-color: white;
+	background-color: #c7a07a9d;
+	color: white;
+}
+
+.BtnEnviar:hover {
+	background-color: #c7a17a;
+	border-color: #c7a07a9d;
+}
+
+.BtnBorrar {
+	border-color: white;
+	background-color: #c7a07a9d;
+	color: white;
+}
+
+.BtnBorrar:hover {
+	background-color: #c7a17a;
+	border-color: #c7a07a9d;
 }
 
 /***********************************FOOTER***********************************/

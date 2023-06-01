@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center justify-content-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#categ">Mejores Categorias</a>
+              <a class="nav-link" aria-current="page" href="#categ">Mejores Categorias</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#prod">Mejores Productos</a>
@@ -37,8 +37,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#gale">Galeria</a>
             </li>
-
-
+            <li class="nav-item">
+              <a class="nav-link"  id="abrirFormulario" href="#contForm">Contacto</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Nosotros</a>
             </li>
@@ -80,7 +81,7 @@
     </div>
   </section>
   <!-- ********************************MEJORES PRODUCTOS******************************** -->
-  <section class="container top-products">
+  <section class="container top-products" id="prod">
     <h2 class="text-center Mproductos">Mejores Productos</h2>
     <div class="container-products">
       <!--***************************Producto 1*************************** -->
@@ -249,6 +250,52 @@
   </section>
 
   <!-- ******************CLIMA********************* -->
+
+  <!-- ******************FORMULARIO********************* -->
+  <form  action="" method="post" id="contForm">
+    <div class="mb-3">
+      <label for="Nombre" class="form-label">Nombre</label>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Escribi tu Nombre"
+        name="nombre"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="mail" class="form-label">Email</label>
+      <input
+        type="email"
+        class="form-control"
+        aria-describedby="emailHelp"
+        placeholder="Escribi tu Email"
+        name="correo"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="telefono" class="form-label">Teléfono</label>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Escribi tu Telefono"
+        name="telefono"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="mensaje" class="form-label">Mensaje</label>
+      <textarea
+        class="form-control"
+        rows="3"
+        placeholder="Escribe aquí"
+        name="mensaje"
+        required
+      ></textarea>
+    </div>
+    <input class="btn btn-primary BtnEnviar" type="submit" value="Enviar">
+    <input class="btn btn-primary BtnBorrar" type="reset" value="Borrar">
+  </form>
 
   <footer class="footer">
     <div class="footer-container">
