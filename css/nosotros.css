@@ -1,0 +1,128 @@
+.nosotros {
+    margin-top: 0;
+}
+.titulos {
+       
+    background-image: url("../img/nosotros1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    background-attachment: fixed;
+}
+.nombre{
+    font-size: 4rem;
+    font-family: 'Roboto Slab', serif;
+
+ 
+}
+.parrafo{
+    font-size: 0.90rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.descripcion1 {
+    padding: 0;
+    display: flex;
+}
+
+.p1 {
+    font-family: 'Satisfy', cursive;
+    width: 50%;
+    text-align: right;
+
+    padding: 0px 30px;
+    margin: auto 0;
+}
+
+.descripcion1 .img1 {
+    width: 50%;
+    height: auto;
+}
+
+.descripcion2 {
+    background-image: url("../img/nosotros2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.p2 {
+    font-family: 'Satisfy', cursive;
+
+    color:white;
+    padding: 100px;
+    margin: 0px auto 0px auto;
+    width: 80%;
+    font-size: 1.2rem;
+    background-color: #bbbbbb7c;
+}
+
+.descripcion3 {
+    padding: 0;
+    display: flex;
+}
+
+.p3 {
+    font-family: 'Satisfy', cursive;
+
+    width: 50%;
+    padding: 0px 30px;
+    margin: auto 0;
+}
+
+.descripcion3 .img3 {
+    width: 50%;
+}
+
+.descripcion4 {
+    background-image: url("../img/nosotros4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.p4 {
+    font-family: 'Satisfy', cursive;
+
+    padding: 100px;
+    margin: 0px auto 0px auto;
+    width: 60%;
+    font-size: 1rem;
+    background-color: #bbbbbb5a;
+}
+
+.descripcion5 {
+    display: flex;
+    width: 100%;
+}
+
+.p5 {
+    font-family: 'Satisfy', cursive;
+
+    margin: auto 0;
+    padding: 0 20px;
+    width: 80%;
+    font-size: 1rem;
+    /* background-color: #bbbbbb5a; */
+}
+
+.descripcion5 .img5 {
+    width: 50%;
+}
+
+
+/* @media (max-width: 768px) {
+    .titulos {
+      background-position: top;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .titulos {
+      background-position: center;
+      padding: 20px;
+    }
+  }
+
+ */
