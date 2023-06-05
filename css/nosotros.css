@@ -1,8 +1,8 @@
 .nosotros {
     margin-top: 0;
 }
+
 .titulos {
-       
     background-image: url("../img/nosotros1.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -10,13 +10,23 @@
     padding: 50px;
     background-attachment: fixed;
 }
-.nombre{
+
+.inicio {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.inicio:hover{
+    transition: scale(1.05);
+    color:black;
+}
+
+.nombre {
     font-size: 4rem;
     font-family: 'Roboto Slab', serif;
-
- 
 }
-.parrafo{
+
+.parrafo {
     font-size: 0.90rem;
     font-family: 'Roboto Slab', serif;
 }
@@ -48,8 +58,7 @@
 
 .p2 {
     font-family: 'Satisfy', cursive;
-
-    color:white;
+    color: white;
     padding: 100px;
     margin: 0px auto 0px auto;
     width: 80%;
@@ -64,7 +73,6 @@
 
 .p3 {
     font-family: 'Satisfy', cursive;
-
     width: 50%;
     padding: 0px 30px;
     margin: auto 0;
@@ -84,7 +92,6 @@
 
 .p4 {
     font-family: 'Satisfy', cursive;
-
     padding: 100px;
     margin: 0px auto 0px auto;
     width: 60%;
@@ -99,30 +106,85 @@
 
 .p5 {
     font-family: 'Satisfy', cursive;
-
     margin: auto 0;
     padding: 0 20px;
     width: 80%;
     font-size: 1rem;
-    /* background-color: #bbbbbb5a; */
 }
 
 .descripcion5 .img5 {
     width: 50%;
 }
 
+@media screen and (max-width: 470px) {
 
-/* @media (max-width: 768px) {
     .titulos {
-      background-position: top;
+        background-image: url("../img/nosotros1.jpg");
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+        background-attachment: fixed;
     }
-  }
-  
-  @media (max-width: 480px) {
-    .titulos {
-      background-position: center;
-      padding: 20px;
-    }
-  }
 
- */
+    .p3 {
+        width: 80%;
+        text-align: end;
+        padding: 30px 30px 50px 30px;
+        margin-left: 20%;
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+    .descripcion1 .img1 {
+        display: none;
+    }
+
+    .p1 {
+        width: 80%;
+        padding: 50px;
+        text-align: left;
+    }
+
+    .p2 {
+        padding: 100px;
+        margin: 20px auto;
+        width: 100%;
+        font-size: 1rem;
+        background-color: #bbbbbb9a;
+
+    }
+
+    .descripcion3 .img3 {
+        display: none;
+    }
+
+    .p3 {
+        width: 60%;
+        text-align: end;
+        padding: 30px 30px 50px 30px;
+        margin-left: 40%;
+    }
+
+    .p4 {
+        padding: 100px;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 1rem;
+        background-color: #bbbbbb00;
+        color: #e7e2e2;
+    }
+
+    .p5 {
+        padding: 100px;
+        margin: 0px auto;
+        width: 100%;
+        font-size: 1rem;
+
+    }
+
+    .descripcion5 .img5 {
+        display: none;
+    }
+}
