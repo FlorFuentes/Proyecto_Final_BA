@@ -3,7 +3,7 @@
 }
 
 .titulos {
-    background-image: url("../img/nosotros1.jpg");
+    background-image: url("../img/nosotros1.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,7 +51,7 @@
 }
 
 .descripcion2 {
-    background-image: url("../img/nosotros2.jpg");
+    background-image: url("../img/nosotros2.webp");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -83,7 +83,7 @@
 }
 
 .descripcion4 {
-    background-image: url("../img/nosotros4.jpg");
+    background-image: url("../img/nosotros4.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -119,7 +119,7 @@
 @media screen and (max-width: 470px) {
 
     .titulos {
-        background-image: url("../img/nosotros1.jpg");
+        background-image: url("../img/nosotros1.webp");
         background-position: top right;
         background-repeat: no-repeat;
         background-size: cover;
